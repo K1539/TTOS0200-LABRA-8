@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaskinDemo", "LaskinDemo\La
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaskinDemoTests", "LaskinDemoTests\LaskinDemoTests.csproj", "{BC2A35D2-E5AE-4118-B85F-268BABB28DF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava2", "Tehtava2\Tehtava2.csproj", "{6AD0587F-4423-4137-92B2-99C71011D3BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BC2A35D2-E5AE-4118-B85F-268BABB28DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC2A35D2-E5AE-4118-B85F-268BABB28DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC2A35D2-E5AE-4118-B85F-268BABB28DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD0587F-4423-4137-92B2-99C71011D3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD0587F-4423-4137-92B2-99C71011D3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD0587F-4423-4137-92B2-99C71011D3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD0587F-4423-4137-92B2-99C71011D3BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
