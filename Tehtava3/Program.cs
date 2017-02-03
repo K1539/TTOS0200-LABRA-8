@@ -67,11 +67,21 @@ namespace JAMK.IT
     {
         static void Main(string[] args)
         {
-            KalanTiedot kalantiedot1 = new KalanTiedot("Lohi", 50, 4.0);
-            KalapaikanTiedot kalapaikantiedot1 = new KalapaikanTiedot("Jyväsjärvi", "Jyväskylä");
             KalastajanTiedot kalastajantiedot1 = new KalastajanTiedot("Kirsi Kernel", "040 1234567");
-
-
+            List<KalastajanTiedot> kalastajalista = new List<KalastajanTiedot>();
+            kalastajalista.Add(kalastajantiedot1);
+            foreach (var item in kalastajalista)
+            {
+                Console.WriteLine(item.ToString());
+            }
+            //
+            KalanTiedot kalantiedot1 = new KalanTiedot("Lohi", 50, 4.0, "Jyväsjärvi", "Jyväskylä");
+            List<KalanTiedot> kalantiedot = new List<KalanTiedot>();
+            kalantiedot.Add(kalantiedot1);
+            foreach (var item in kalantiedot)
+            {
+                Console.WriteLine(item.ToString());
+            }
         }
     }
 }

@@ -22,7 +22,7 @@ namespace JAMK.IT
         }
         public override string ToString()
         {
-            return "Uusi kalastaja lisätty kalastajarekisteriin: \n-Kalastaja: " + Nimi + " Puhelinnumero: " + PuhNumero;
+            return "Uusi kalastaja lisätty kalastajarekisteriin: \n-Kalastaja: " + Nimi + " Puhelinnumero: " + PuhNumero + "\n";
         }
     }
 }

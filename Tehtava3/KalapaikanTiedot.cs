@@ -13,16 +13,5 @@ namespace JAMK.IT
     {
         public string Paikannimi { get; set; }
         public string Sijainti { get; set; }
-
-        public KalapaikanTiedot() { }
-        public KalapaikanTiedot(string paikannimi, string sijainti)
-        {
-            Paikannimi = paikannimi;
-            Sijainti = sijainti;
-        }
-        public override string ToString()
-        {
-            return "-Paikka: " + Paikannimi + "\n" + "-Sijainti: " + Sijainti;
-        }
     }
 }
