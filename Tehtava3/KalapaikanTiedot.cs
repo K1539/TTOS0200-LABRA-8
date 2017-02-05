@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace JAMK.IT
 {
-    class KalapaikanTiedot
+    class KalapaikanTiedot : KalastajanTiedot
     {
         public string Paikannimi { get; set; }
         public string Sijainti { get; set; }

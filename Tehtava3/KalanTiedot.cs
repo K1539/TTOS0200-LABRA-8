@@ -25,7 +25,7 @@ namespace JAMK.IT
         }
         public override string ToString()
         {
-            return "-Laji: " + Laji + " " + Pituus + "cm " + Paino + "kg\n-Paikka: " + Paikannimi + "\n" + "-Sijainti: " + Sijainti;
+            return " - Laji: " + Laji + " " + Pituus + "cm " + Paino + "kg\n - Paikka: " + Paikannimi + "\n" + " - Sijainti: " + Sijainti;
         }
     }
 }
